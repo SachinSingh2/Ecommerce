@@ -1,0 +1,52 @@
+.LoginBox{
+    border: solid #FF9900;
+    margin: auto;
+    display: block;
+    width: 40%;
+}
+
+.LoginBtn{
+    background-color: #FF9900;
+    transition: 0.4s all ease-in-out;
+    border: solid #FF9900;
+    color: white;
+}
+.LoginBtn:hover{
+    background-color:white;
+    border: solid  #FF9900;
+}
+
+.DontHaveAccountBtn{
+    border: solid  #FF9900;
+    transition: 0.4s all ease-in-out;
+}
+.DontHaveAccountBtn:hover{
+    background-color: #FF9900;
+    border: solid #FF9900;
+    color: white;
+}
+
+
+.Register{
+    background-color:#FF9900;
+    color: white;
+    transition: all 0.4s ease-in-out;
+    border: solid  #FF9900;  
+}
+.Register:hover{
+    border: solid  #FF9900;  
+}
+
+
+
+.AlreadyAccount{
+    border: solid  #FF9900;
+    transition: all 0.4s ease-in-out;
+}
+
+.AlreadyAccount:hover{
+    background-color: #FF9900;
+    color: white;
+
+    border: solid  #FF9900; 
+}

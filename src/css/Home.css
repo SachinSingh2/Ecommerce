@@ -1,0 +1,140 @@
+  @import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&family=Lugrasimo&family=Merriweather+Sans:ital,wght@0,400;1,300&family=Metrophobic&family=Nova+Square&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;1,200;1,300;1,400;1,500&family=Roboto:wght@100;300&display=swap');
+/* Add this to your Home.css file */
+
+.CrouselDiv {
+  margin: auto; /* Center the carousel */
+  height: 70vh;
+}
+
+.CrouselDivImageBox img {
+  width: 100%;
+  height: auto;
+  object-fit: cover; /* Maintain aspect ratio while covering the entire container */
+}
+
+/* Optional: Add some padding or margin to the carousel container if needed */
+.CategoriesHeading{
+  text-align: center;
+  letter-spacing: 1px;
+  font-size: 35px !important;
+  font-weight: 600;
+  color: black;
+  font-family: 'Merriweather Sans', sans-serif;
+}
+
+
+.UpperNav{
+  background-color:rgb(73, 21, 21);
+}
+
+
+
+/* --------------------------------------------------------Grid Box----------------------------------------------- */
+
+.GridBox img {
+    transition: all 0.3s ease-in-out; /* Move the transition property to the default state */
+
+    /* Other styling properties */
+}
+
+.GridBox img:hover {
+    transform: scale(1.05);
+}
+
+
+
+/* On Hover Card For Categories */
+
+.ProductImageCard {
+  position: relative;
+  overflow: hidden;
+}
+
+.ProductAboutDiv {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.8); /* Adjust opacity as needed */
+  opacity: 0;
+  transition: opacity 0.9s ease; /* Add a smooth transition effect */
+  /* border: solid rgb(228, 225, 225); */
+}
+
+.ProductImageDiv:hover .ProductAboutDiv {
+  opacity: 1;
+}
+
+.ProductAboutDiv p {
+  padding: 5px;
+  color: rgb(123, 123, 123);
+  font-size: 14px;
+  margin-top: 10px;
+  padding: 0px 30px;
+}
+
+
+
+/* ----Second---2 */
+.ProductImageCard2 {
+  position: relative;
+  overflow: hidden;
+}
+
+.ProductAboutDiv2 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.8); /* Adjust opacity as needed */
+  opacity: 0;
+  transition: opacity 0.9s ease; /* Add a smooth transition effect */
+  /* border: solid rgb(228, 225, 225); */
+}
+
+.ProductImageDiv2:hover .ProductAboutDiv2 {
+  opacity: 1;
+}
+
+.ProductAboutDiv2 p {
+  padding: 5px;
+  color: rgb(123, 123, 123);
+  font-size: 12px;
+   /* margin-top: 30px; */
+   /* padding: 0px 30px; */
+}
+
+
+/* --------------------------------------------------------Media-querry For small devices------------------------------------------------------ */
+
+
+
+@media (max-width: 786px) {
+  .CrouselDiv {
+    margin: auto; /* Center the carousel */
+    height: auto;
+  }
+  
+
+  .CrouselDivImageBox img {
+    width: 100%;
+    height: auto;
+    object-fit: cover; /* Maintain aspect ratio while covering the entire container */
+  }
+
+  /* Optional: Add some padding or margin to the carousel container if needed */
+  .CrouselDiv {
+    padding: 5px;
+  }
+}
+
+
+/* -----------------------------------------------786 px  */
+
+@media (min-width: 820px) and (max-width: 1140px) {
+  .CrouselDiv {
+    height: 30vh;
+  }
+}

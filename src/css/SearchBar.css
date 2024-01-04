@@ -1,0 +1,18 @@
+
+.SearchItemInput{
+    padding: 5px 10px;
+    border-radius: 3px;
+    border: none;
+    background-color: whitesmoke;
+    color: black;
+    transition: all 0.3s ease-in-out;
+}
+.SearchItemInput:focus{
+    outline: none;
+    border: solid 1px darkgray;
+}
+.SearchBar{
+    padding: 5px 10px;
+}
+
+

@@ -1,0 +1,28 @@
+.FashionHeadingAndPara {
+    color: rgb(0, 0, 0);
+}
+
+
+
+.ShowMoreBtn{
+    text-align: center;
+}
+.ShowMoreBtn button{
+    text-align: center;
+    border: none;
+    background-color: rgb(63, 29, 29);
+    color: white;
+    border-radius: 3px;
+    font-size: 17px;
+    padding: 10px 50px;
+}
+
+
+
+.FashionContainer{
+    /* background-color: rgb(254, 214, 139); */
+    opacity: 0.9;
+}
+
+
+  

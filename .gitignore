@@ -1,0 +1,6 @@
+node_modules
+package-lock.json
+License.pdf
+README.md 
+README.txt
+src/.env
